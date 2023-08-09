@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.loading-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Lớp mờ */
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Màu nền và độ mờ của lớp mờ */
+  z-index: 9999; /* Đảm bảo lớp mờ hiển thị trên các phần tử khác */
+}
+
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Thêm các thuộc tính CSS khác cho phần tử loading của bạn */
+}
